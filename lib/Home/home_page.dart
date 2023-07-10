@@ -7,15 +7,10 @@ import 'package:getx_flutter/Routes/app_routes.dart';
 class HomePage extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Home Page"),
-        ),
         body: Center(
-          child: MaterialButton(
-              onPressed: () => Get.toNamed(Routes.PROFILE_PAGE),
-              child: Text("HOME")),
+          child: Text("HOME"),
         ),
       ),
     );

@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: "GetX App",
-      initialRoute: Routes.HOME,
+      initialRoute: Routes.DASHBOARD,
       getPages: GetPages.page_list,
       debugShowCheckedModeBanner: false,
     );
